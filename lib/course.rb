@@ -8,9 +8,13 @@ class Course
     @@all << self
   end
 
+  def all
+    @@all
+  end
+
+
   def reset_all
     @@all.clear
   end
-
 
 end
